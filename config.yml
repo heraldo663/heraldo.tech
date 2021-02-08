@@ -1,0 +1,38 @@
+baseURL: "https://heraldo.tech"
+title: Heraldo
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Heraldo - Personal Website
+  description: "Heraldo - Personal Website"
+  author: Heraldo Ecard Roque Filho
+  defaultTheme: auto # dark, light
+
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Hi there \U0001F44B"
+    subtitle:
+      My name is Heraldo Ecard Roque filho and I'm a software developer. I'm
+      from Brazil, living in Nova friburgo, RJ and currently working at
+      Agência m3.
+
+  socialIcons:
+    # - name: twitter
+    #   url: "https://twitter.com/Heraldo62367171"
+    - name: linkedIn
+      url: "https://www.linkedin.com/in/heraldo-ecard-roque-filho-99645698/"
+    - name: github
+      url: "https://github.com/heradlo663"
